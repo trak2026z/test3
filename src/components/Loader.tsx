@@ -1,5 +1,11 @@
 import React from "react";
 
-export const Loader: React.FC20 = () => (
-  <div className="text-center py-4">żadowanie...</div>
-); 
+const Loader: React.FC<> = () => {
+  return (
+    <div style={{ textAlign: 'center', padding: '1em' }}>
+      <h1>Loading ...</h1>
+    </div>
+  );
+};
+
+export default Loader;
