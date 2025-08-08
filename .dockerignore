@@ -1,0 +1,9 @@
+node_modules
+vite_out
+react_build
+Node_cache
+.idea
+.vsc
+str/dist
+.swap
+.pnp
